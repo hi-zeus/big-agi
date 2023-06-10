@@ -1,0 +1,48 @@
+{
+  "name": "big-agi",
+  "version": "0.9.1",
+  "private": true,
+  "engines": {
+    "node": "^18.0.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@dqbd/tiktoken": "^1.0.7",
+    "@emotion/react": "^11.11.0",
+    "@emotion/server": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/joy": "5.0.0-alpha.75",
+    "@tanstack/react-query": "^4.29.5",
+    "@vercel/analytics": "^1.0.1",
+    "eventsource-parser": "^1.0.0",
+    "next": "^13.4.1",
+    "pdfjs-dist": "^3.6.172",
+    "plantuml-encoder": "^1.4.0",
+    "prismjs": "^1.29.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^8.0.7",
+    "remark-gfm": "^3.0.1",
+    "uuid": "^9.0.0",
+    "zustand": "^4.3.8"
+  },
+  "devDependencies": {
+    "@pkgr/utils": "2.3.1",
+    "@types/node": "^20.1.2",
+    "@types/plantuml-encoder": "^1.4.0",
+    "@types/prismjs": "^1.26.0",
+    "@types/react": "^18.2.6",
+    "@types/react-dom": "^18.2.4",
+    "@types/uuid": "^9.0.1",
+    "eslint": "^8.40.0",
+    "eslint-config-next": "^13.4.1",
+    "prettier": "^2.8.8",
+    "typescript": "^5.0.4"
+  }
+}
